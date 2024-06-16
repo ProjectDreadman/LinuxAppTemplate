@@ -30,7 +30,7 @@ class MainWindow(Gtk.Window):
 
         # Add an image
         self.image = Gtk.Image()
-        self.image.set_from_file("icons/app-icon.png")
+        self.image.set_from_file("app/icons/app-icon.png")
         self.box.pack_start(self.image, True, True, 0)
 
 win = MainWindow()
