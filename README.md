@@ -35,7 +35,7 @@ To start using this template, clone the repository and follow the setup instruct
    python app/main.py
    
 ### Contributing
-Contributions are welcome! Feel free to fork this repository, make improvements, and submit pull requests.
+Contributions are welcome! Feel free to fork this repository, make improvements(by making issue in putting the label enhancement or in the title), and submit pull requests.
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
