@@ -1,1 +1,36 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow" id="window">
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkBox" id="box">
+        <property name="orientation">vertical</property>
+        <property name="spacing">6</property>
+        <child>
+          <object class="GtkMenuBar" id="menu_bar">
+            <child>
+              <object class="GtkMenuItem" id="file_item">
+                <property name="label">File</property>
+                <child>
+                  <object class="GtkMenu" id="file_menu">
+                    <child>
+                      <object class="GtkMenuItem" id="quit_item">
+                        <property name="label">Quit</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkImage" id="image">
+            <property name="file">app/icons/app-icon.png</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
