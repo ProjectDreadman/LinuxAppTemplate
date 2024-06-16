@@ -1,0 +1,2 @@
+# Example dependencies
+PyGObject
