@@ -23,7 +23,7 @@ To start using this template, clone the repository and follow the setup instruct
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/LinuxAppTemplate.git
+   git clone https://github.com/ProjectDreadman/LinuxAppTemplate.git
    cd LinuxAppTemplate
    
 2. **Install dependencies:**
