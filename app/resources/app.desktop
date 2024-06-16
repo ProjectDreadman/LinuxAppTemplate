@@ -1,6 +1,8 @@
 [Desktop Entry]
-Name=Linux App Template
-Exec=python3 /path/to/LinuxAppTemplate/app/main.py
-Icon=/path/to/LinuxAppTemplate/app/icons/app-icon.png
+Version=1.0
 Type=Application
+Name=Linux App Template
+Exec=python3 /path/to/your/app/main.py
+Icon=/path/to/your/app/icons/app-icon.png
+Terminal=false
 Categories=Utility;
